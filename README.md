@@ -37,3 +37,6 @@ make
 - First one indicates the number of OpenMP threads
 - Second one indicates the number of blocks in CUDA
 - Third one indicates the number of threads per block in CUDA
+
+## Discussion
+You can find a discussion about how execution time changes when we change the parameters in Report.pdf
