@@ -21,8 +21,8 @@
 #define STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 
-#include "stb_image.h"
-#include "stb_image_write.h"
+#include "headers/stb_image.h"
+#include "headers/stb_image_write.h"
 
 // CUDA kernel for edge detection (Sobel Algorithm)
 __global__ void edgeDetectionKernel(const uint8_t *input_image, int width, int height, uint8_t *output_image, int start_row, int num_rows) {
