@@ -20,8 +20,8 @@
 #define STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 
-#include "stb_image.h"
-#include "stb_image_write.h"
+#include "headers/stb_image.h"
+#include "headers/stb_image_write.h"
 
 void seq_edgeDetection(const uint8_t *input_image, int width, int height, uint8_t *output_image) {
     int gx, gy, sum;
